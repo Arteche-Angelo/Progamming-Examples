@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/css.css">
+  <style>
+    main figure {
+      position: absolute;
+      top: 500px;
+      left: 650px;
+    }
+
+    main ul {
+      list-style-type: none;
+      padding-left: 550px;
+    }
+
+    main li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    main li span {
+      position: absolute;
+      top: 500px;
+      left: 650px;
+      opacity: 0;
+    }
+
+    main li:hover span {
+      opacity: 1;
+      transition: opacity .5s ease-in;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="page-header">
+      <h1>Gallery</h1>
+      <nav class="navbar navbar-expand-md navbar-inverse">
+        <div class="container-fluid">
+
+          <div class="nav navbar-nav">
+            <a href="Assignment1.html">Home</a>
+            <a href="Contacts.html">Contacts</a>
+            <a href="funstuff.html">Fun Stuff</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="courses.html">Courses</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <figure>
+      <img src="img/photo1.jpg" width="400px" height="300px">
+    </figure>
+    <ul>
+      <li><img src="img/photo1thumb.jpg" width="100px" height="75px">
+        <span><img src="img/photo1.jpg" width="400px" height="300px"></span>
+      </li>
+      <li><img src="img/photo2thumb.jpg" width="100px" height="75px">
+        <span><img src="img/photo2.jpg" width="400px" height="300px"></span>
+      </li>
+      <li><img src="img/photo3thumb.jpg" width="100px" height="75px">
+        <span><img src="img/photo3.jpg" width="400px" height="300px"></span>
+      </li>
+      <li><img src="img/photo4thumb.jpg" width="100px" height="75px">
+        <span><img src="img/photo4.jpg" width="400px" height="300px"></span>
+      </li>
+      <li><img src="img/photo5thumb.jpg" width="100px" height="75px">
+        <span><img src="img/photo5.jpg" width="400px" height="300px"></span>
+      </li>
+      <li><img src="img/photo6thumb.jpg" width="100px" height="75px">
+        <span><img src="img/photo6.jpg" width="400px" height="300px"></span>
+      </li>
+    </ul>
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

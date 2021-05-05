@@ -1,0 +1,46 @@
+body {
+  background-color: #b89758;
+}
+
+header {
+  background-image: url(../ou.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  padding-bottom: 80px;
+  font-size: 2em;
+}
+
+p {
+  font-size: 2em;
+}
+
+h1 {
+  padding-left: 300px;
+  color: white;
+}
+
+nav {
+  padding-left: 300px;
+  color: white;
+}
+
+a {
+  color: white;
+  padding-right: 20px
+
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+display: inline;
+  margin-right: 40px;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+nav li:hover {
+  background-color: #b89758;
+}
